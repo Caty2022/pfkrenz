@@ -255,7 +255,7 @@ iframe {
   height: 300px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
   .carousel-caption {
     bottom: 350px;
   }
@@ -265,12 +265,44 @@ iframe {
   .img-area img {
     width: 100%;
   }
-  form .btn {
+}
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .derechos-de-autor {
+    text-align: center;
+  }
+  .empresa-texto {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .empresa-imagenes {
+    margin-left: 100px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  iframe {
     width: 300px;
-    margin-left: 10px;
+    height: 300px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .navbar-nav {
     text-align: center;
   }
